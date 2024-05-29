@@ -42,7 +42,6 @@
 #define UIDeviceOrientationIsLayingDown(orientation)    ((orientation) == UIDeviceOrientationFaceUp || (orientation) == UIDeviceOrientationFaceDown)
 #define nameOfSelectedRow                               [[[tableView cellForRowAtIndexPath:[tableView indexPathForSelectedRow]] textLabel] text]
 #define thisDevice                                      [UIDevice currentDevice]
-#define thisApplicationsDelegate                        (iCambrianAppDelegate*)[[UIApplication sharedApplication] delegate];
 #define cameraAvailable                                 [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]
 #define applicationDocumentsDir                         [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
 
